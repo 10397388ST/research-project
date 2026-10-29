@@ -1,0 +1,35 @@
+feature,mean_abs_shap,rank,is_trajectory_feature
+Total_Trans_Ct,3.4144,1,False
+Total_Trans_Amt,2.0405,2,False
+Total_Revolving_Bal,0.8939,3,False
+Total_Relationship_Count,0.6575,4,False
+inactivity_ratio,0.6501,5,True
+Total_Amt_Chng_Q4_Q1,0.6453,6,True
+Total_Ct_Chng_Q4_Q1,0.6067,7,True
+Contacts_Count_12_mon,0.4269,8,False
+Customer_Age,0.3118,9,False
+Months_Inactive_12_mon,0.2663,10,False
+Avg_Open_To_Buy,0.2513,11,False
+Credit_Limit,0.2315,12,False
+Avg_Utilization_Ratio,0.2307,13,False
+declining_transactions,0.2053,14,True
+Marital_Status_Married,0.1885,15,False
+Gender_M,0.1477,16,False
+Months_on_book,0.14,17,False
+Dependent_count,0.1277,18,False
+Marital_Status_Single,0.1221,19,False
+Income_Category_$40K - $60K,0.0949,20,False
+Education_Level_Graduate,0.0756,21,False
+Education_Level_Uneducated,0.0569,22,False
+Income_Category_$80K - $120K,0.0465,23,False
+Income_Category_$60K - $80K,0.0436,24,False
+Marital_Status_Unknown,0.0393,25,False
+Education_Level_Unknown,0.0387,26,False
+Education_Level_High School,0.0356,27,False
+Education_Level_Post-Graduate,0.0326,28,False
+Income_Category_Unknown,0.0229,29,False
+Income_Category_Less than $40K,0.0228,30,False
+Card_Category_Silver,0.0203,31,False
+Education_Level_Doctorate,0.0136,32,False
+Card_Category_Platinum,0.0009,33,False
+Card_Category_Gold,0.0,34,False

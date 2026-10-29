@@ -1,0 +1,13 @@
+model,metric,observed_B_minus_A,ci_low,ci_high,share_of_resamples_B_better,ci_excludes_zero
+logreg,f1,0.0368,0.017,0.0558,1.0,True
+logreg,recall,0.0062,-0.0169,0.0291,0.649,False
+logreg,roc_auc,0.0162,0.0096,0.0232,1.0,True
+logreg,pr_auc,0.0687,0.0451,0.0945,1.0,True
+tree,f1,-0.0234,-0.0605,0.0133,0.0945,False
+tree,recall,-0.0308,-0.073,0.0139,0.07,False
+tree,roc_auc,0.0033,-0.0161,0.021,0.6505,False
+tree,pr_auc,-0.0337,-0.085,0.0182,0.0975,False
+xgboost,f1,0.0503,0.0265,0.0737,1.0,True
+xgboost,recall,0.0646,0.0334,0.0957,1.0,True
+xgboost,roc_auc,0.0077,0.005,0.0108,1.0,True
+xgboost,pr_auc,0.0267,0.0143,0.0397,1.0,True

@@ -1,0 +1,7 @@
+model,metric,mean_difference,ci_low,ci_high,corrected_t_p,splits_first_better,splits,p_holm
+logreg,roc_auc,0.0016,0.0006,0.0027,0.0031,24,25,0.0188
+logreg,f1,0.002,-0.0047,0.0087,0.5447,15,25,1.0
+tree,roc_auc,0.0013,-0.0041,0.0066,0.6268,15,25,1.0
+tree,f1,-0.0037,-0.0239,0.0166,0.7122,11,25,1.0
+xgboost,roc_auc,0.0001,-0.0005,0.0007,0.8158,12,25,1.0
+xgboost,f1,-0.0005,-0.0108,0.0098,0.928,9,25,1.0

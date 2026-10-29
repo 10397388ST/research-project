@@ -1,0 +1,9 @@
+check,variant,delta_auc_logreg,delta_auc_tree,delta_auc_xgboost,delta_f1_logreg,delta_f1_tree,delta_f1_xgboost
+decline threshold,threshold = 0.6,0.0135,-0.0055,0.0065,0.0348,0.0024,0.0445
+decline threshold,threshold = 0.7,0.0131,0.0025,0.0064,0.0338,0.0084,0.0417
+decline threshold,threshold = 0.8,0.013,0.0006,0.0064,0.0345,0.0133,0.0433
+decline threshold,threshold = 0.9,0.0134,-0.0032,0.0063,0.0365,0.0134,0.0439
+feature ablation,A_plus_engineered,0.0069,0.0022,0.0024,0.0164,0.0136,0.0128
+feature ablation,A_plus_raw,0.0114,-0.0007,0.0063,0.0325,0.017,0.0438
+imbalance handling,class weights instead of SMOTE,0.0129,-0.0076,0.0066,0.0319,-0.016,0.0485
+main analysis,default settings,0.013,0.0006,0.0064,0.0345,0.0133,0.0433

@@ -1,0 +1,4 @@
+column,unknown_count,unknown_percent,churn_rate_unknown_percent,churn_rate_known_percent
+Education_Level,1519,15.0,16.85,15.93
+Marital_Status,749,7.4,17.22,15.97
+Income_Category,1112,10.98,16.82,15.97

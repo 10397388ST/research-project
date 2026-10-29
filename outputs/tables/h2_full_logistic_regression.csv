@@ -1,0 +1,32 @@
+,odds_ratio,ci_low,ci_high,p_value
+const,0.0729,0.0422,0.1256,0.0
+Customer_Age,0.9419,0.8371,1.0599,0.3204
+Dependent_count,1.1841,1.099,1.2757,0.0
+Months_on_book,0.9796,0.8712,1.1016,0.7308
+Total_Relationship_Count,0.4915,0.453,0.5333,0.0
+Credit_Limit,0.8251,0.7323,0.9297,0.0016
+Total_Revolving_Bal,0.4681,0.4185,0.5237,0.0
+Avg_Utilization_Ratio,0.9456,0.8304,1.0769,0.3992
+Total_Trans_Amt,4.9529,4.2584,5.7608,0.0
+Total_Trans_Ct,0.0567,0.048,0.0671,0.0
+Months_Inactive_12_mon,1.6575,1.5398,1.7841,0.0
+Contacts_Count_12_mon,1.794,1.6604,1.9382,0.0
+declining_transactions,3.2179,2.6708,3.8772,0.0
+Gender_M,0.4059,0.3071,0.5366,0.0
+Education_Level_Doctorate,1.48,0.9975,2.1959,0.0515
+Education_Level_Graduate,1.0141,0.7767,1.3239,0.9182
+Education_Level_High School,0.9848,0.7406,1.3094,0.9158
+Education_Level_Post-Graduate,1.37,0.9267,2.0254,0.1145
+Education_Level_Uneducated,1.033,0.7647,1.3956,0.8323
+Education_Level_Unknown,1.1662,0.8671,1.5683,0.3092
+Marital_Status_Married,0.5877,0.4383,0.7879,0.0004
+Marital_Status_Single,1.1072,0.8246,1.4866,0.4983
+Marital_Status_Unknown,1.0121,0.6961,1.4715,0.95
+Income_Category_$40K - $60K,0.3982,0.2698,0.5879,0.0
+Income_Category_$60K - $80K,0.5093,0.3608,0.7191,0.0001
+Income_Category_$80K - $120K,0.6945,0.5043,0.9564,0.0255
+Income_Category_Less than $40K,0.447,0.2934,0.6809,0.0002
+Income_Category_Unknown,0.4292,0.275,0.6698,0.0002
+Card_Category_Gold,2.9584,1.4921,5.8656,0.0019
+Card_Category_Platinum,2.7155,0.7157,10.3027,0.142
+Card_Category_Silver,1.4805,1.0148,2.1599,0.0417

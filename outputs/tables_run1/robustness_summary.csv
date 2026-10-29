@@ -1,0 +1,25 @@
+check,variant,model,auc_A,auc_B,delta_auc,f1_A,f1_B,delta_f1
+main analysis,default settings,logreg,0.9145,0.9275,0.013,0.6194,0.6539,0.0345
+main analysis,default settings,tree,0.9503,0.9509,0.0006,0.7681,0.7814,0.0133
+main analysis,default settings,xgboost,0.9875,0.9939,0.0064,0.8725,0.9158,0.0433
+decline threshold,threshold = 0.6,logreg,0.9145,0.928,0.0135,0.6194,0.6542,0.0348
+decline threshold,threshold = 0.6,tree,0.9503,0.9448,-0.0055,0.7681,0.7705,0.0024
+decline threshold,threshold = 0.6,xgboost,0.9875,0.994,0.0065,0.8725,0.9169,0.0445
+decline threshold,threshold = 0.7,logreg,0.9145,0.9276,0.0131,0.6194,0.6533,0.0338
+decline threshold,threshold = 0.7,tree,0.9503,0.9528,0.0025,0.7681,0.7765,0.0084
+decline threshold,threshold = 0.7,xgboost,0.9875,0.9939,0.0064,0.8725,0.9141,0.0417
+decline threshold,threshold = 0.8,logreg,0.9145,0.9275,0.013,0.6194,0.6539,0.0345
+decline threshold,threshold = 0.8,tree,0.9503,0.9509,0.0006,0.7681,0.7814,0.0133
+decline threshold,threshold = 0.8,xgboost,0.9875,0.9939,0.0064,0.8725,0.9158,0.0433
+decline threshold,threshold = 0.9,logreg,0.9145,0.928,0.0134,0.6194,0.6559,0.0365
+decline threshold,threshold = 0.9,tree,0.9503,0.9471,-0.0032,0.7681,0.7815,0.0134
+decline threshold,threshold = 0.9,xgboost,0.9875,0.9938,0.0063,0.8725,0.9164,0.0439
+feature ablation,A_plus_raw,logreg,0.9145,0.9259,0.0114,0.6194,0.6519,0.0325
+feature ablation,A_plus_raw,tree,0.9503,0.9496,-0.0007,0.7681,0.7851,0.017
+feature ablation,A_plus_raw,xgboost,0.9875,0.9938,0.0063,0.8725,0.9162,0.0438
+feature ablation,A_plus_engineered,logreg,0.9145,0.9214,0.0069,0.6194,0.6359,0.0164
+feature ablation,A_plus_engineered,tree,0.9503,0.9525,0.0022,0.7681,0.7817,0.0136
+feature ablation,A_plus_engineered,xgboost,0.9875,0.9899,0.0024,0.8725,0.8853,0.0128
+imbalance handling,class weights instead of SMOTE,logreg,0.9149,0.9278,0.0129,0.6131,0.645,0.0319
+imbalance handling,class weights instead of SMOTE,tree,0.9529,0.9454,-0.0076,0.7745,0.7585,-0.016
+imbalance handling,class weights instead of SMOTE,xgboost,0.9873,0.9939,0.0066,0.8654,0.9139,0.0485

@@ -1,0 +1,7 @@
+model,features,best_cv_auc,best_params
+logreg,A,0.914331115201253,"{'model__C': 0.1, 'model__penalty': 'l1', 'model__solver': 'saga'}"
+logreg,B,0.9274516281340273,"{'model__C': 0.1, 'model__penalty': 'l1', 'model__solver': 'saga'}"
+tree,A,0.9505689048043973,"{'model__criterion': 'entropy', 'model__max_depth': 7, 'model__min_samples_leaf': 2, 'model__min_samples_split': 20}"
+tree,B,0.9559336332694693,"{'model__criterion': 'gini', 'model__max_depth': 7, 'model__min_samples_leaf': 8, 'model__min_samples_split': 20}"
+xgboost,A,0.9873016892986277,"{'model__colsample_bytree': 0.6, 'model__learning_rate': 0.05, 'model__max_depth': 5, 'model__n_estimators': 300, 'model__subsample': 1.0}"
+xgboost,B,0.9936383270110396,"{'model__colsample_bytree': 1.0, 'model__learning_rate': 0.2, 'model__max_depth': 3, 'model__n_estimators': 300, 'model__subsample': 1.0}"

@@ -1,0 +1,11 @@
+feature,xgboost_mean_abs_shap,rank_xgboost,rank_logreg,rank_tree
+Total_Trans_Ct,3.414444,1.0,1.0,1.0
+Total_Trans_Amt,2.0405214,2.0,2.0,2.0
+Total_Revolving_Bal,0.89394194,3.0,9.0,6.0
+Total_Relationship_Count,0.6575455,4.0,7.0,5.0
+inactivity_ratio,0.65012926,5.0,4.0,12.0
+Total_Amt_Chng_Q4_Q1,0.6452734,6.0,19.0,8.0
+Total_Ct_Chng_Q4_Q1,0.6066638,7.0,5.0,11.0
+Contacts_Count_12_mon,0.4269176,8.0,10.0,10.0
+Customer_Age,0.31178534,9.0,30.0,13.0
+Months_Inactive_12_mon,0.2663362,10.0,3.0,4.0
